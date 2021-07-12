@@ -1,0 +1,41 @@
+.contactList {
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 380px;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 15px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.contactText {
+  margin-right: -110px;
+}
+
+.deleteBtn {
+  padding: 3px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+
+  cursor: pointer;
+  outline: none;
+  border: 1px solid rgb(138, 175, 175);
+  border-radius: 3px;
+  background-color: rgb(218, 238, 238);
+  box-shadow: 0 0 5px #000, inset 0 1px 4px -2px #fff;
+  transition: background-color box-shadow 250ms linear;
+}
+
+.deleteBtn:hover {
+  background-color: rgb(132, 196, 238);
+  box-shadow: 0 -1px 3px #000, inset 0 1px 4px -3px #fff;
+}

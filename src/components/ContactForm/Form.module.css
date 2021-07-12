@@ -1,0 +1,54 @@
+.ContactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.formLabel,
+.formInput {
+  margin-bottom: 10px;
+}
+
+.formLabel {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.formInput {
+  width: 180px;
+  height: 22px;
+  border: 1px solid black;
+  font-size: 14px;
+  font-style: normal;
+}
+
+.formInput:focus {
+  border: 2px solid rgb(74, 173, 235);
+  outline: transparent;
+}
+
+.addContactBtn {
+  padding: 4px;
+  margin-top: 15px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+
+  cursor: pointer;
+  outline: none;
+  border: 1px solid rgb(211, 199, 90);
+  border-radius: 3px;
+  background-color: rgb(245, 229, 200);
+  box-shadow: 0 0 4px #000, inset 0 1px 4px -2px #fff;
+  transition: background-color box-shadow 250ms linear;
+}
+
+.addContactBtn:hover {
+  background-color: rgb(255, 193, 77);
+  box-shadow: 0 -1px 3px #000, inset 0 1px 4px -3px #fff;
+}

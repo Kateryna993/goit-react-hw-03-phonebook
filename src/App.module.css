@@ -1,0 +1,10 @@
+.mainTitle,
+.contactsTitle {
+  text-align: center;
+}
+
+.mainTitle {
+  color: rgb(31, 111, 190);
+  font-size: 38px;
+  font-weight: 900;
+}

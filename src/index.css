@@ -12,11 +12,9 @@ code {
     monospace;
 }
 
-/* h1,
-h2,
-h3 {
-  text-align: center;
-} */
+p {
+  margin: 0;
+}
 
 li {
   list-style: none;
